@@ -252,7 +252,7 @@ EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/MetadataFor
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData> (<https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData> "Missing Values Standardized Data is Standardized Tabular Data that contains RADx numeric codes for \"Missing Values\".  The data does not contain any empty/blank values (empty string values).
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData> "Missing Values Standardized Data is Standardized Tabular Data that contains RADx numeric codes for \"Missing Values\".  The data does not contain any empty/blank values (empty string values).
 
 Missing value codes are four digit codes starting at -9000 and descending from there."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData> "Missing Values Standardized Data"@en)
