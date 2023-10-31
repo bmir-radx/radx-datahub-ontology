@@ -312,6 +312,9 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmi
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> (<https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram>)
 
+AnnotationAssertion(rdfs:seeAlso <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-Tech>)
+AnnotationAssertion(rdfs:seeAlso <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP>)
+AnnotationAssertion(rdfs:seeAlso <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad>)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> "A RADx Program is a major programs funded by the RADx Initiative. RADx programs include RADx Tech, RADx Underserved Populations (RADx-UP), RADx Radical (RADx-rad), RADx Advancing Technology Platforms (RADx-ATP), and RADx Data Hub."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> "RADx Program"@en)
 
@@ -454,18 +457,21 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/UnstructuredDocume
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-Tech> "RADx-Tech is a RADx Program that is focused on advancing the development of new diagnostic technologies, including both molecular and antigen tests. It provides funding and support to organizations and companies working on innovative testing approaches."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-Tech> "RADx-Tech"@en)
+ClassAssertion(<https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-Tech>)
 
 # Individual: <https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP> (<https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP> "RADx Underserved Populations"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP> "RADx-UP is a RADx programe that is designed to ensure that underserved and vulnerable communities have access to COVID-19 testing. It addresses disparities in testing and healthcare access."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP> "RADx-UP"@en)
+ClassAssertion(<https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-UP>)
 
 # Individual: <https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad> (<https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad> "RADx Radical"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad> "RADx-rad is a RADx programe that supports out-of-the-box and highly innovative approaches to diagnostic testing for COVID-19. It encourages unconventional ideas and technologies that could lead to breakthroughs in testing."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad> "RADx-rad"@en)
+ClassAssertion(<https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> <https://bmir-radx.github.io/radx-datahub-ontology/RADx-rad>)
 
 
 )
