@@ -138,7 +138,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmi
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> (<https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile>)
 
 AnnotationAssertion(rdfs:seeAlso <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> <https://bmir-radx.github.io/radx-datahub-ontology/RADxDataDictionaryFormat>)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> "A Data Dictionary File is a Data Hub File that contains a RADx Data Dictionary.  It is formatted in the RADx Data Dictionary Format."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> "A Data Dictionary File is a Data Hub File that contains a RADx Data Dictionary.  It is formatted in the RADx Data Dictionary Format."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> "Data Dictionary File"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/contains> <https://bmir-radx.github.io/radx-datahub-ontology/TabularStudyDataFileMetadata>)))
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> <https://bmir-radx.github.io/radx-datahub-ontology/RADxDataHubTopLevelEntity>)
@@ -313,7 +313,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmi
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy> (<https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy> "R A Dx Study"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy> "RADx Study"@en)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudyDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/RADxStudyDataFormat>)
 
