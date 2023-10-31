@@ -182,7 +182,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyDat
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/ImageData> (<https://bmir-radx.github.io/radx-datahub-ontology/ImageData>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://bmir-radx.github.io/radx-datahub-ontology/ImageData> "Image Data is data that represents an image.  Image data is usually stored in well known formats such as png or jpeg."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/ImageData> "Image Data is data that represents an image.  Image data is usually stored in well known formats such as png or jpeg."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/ImageData> "Image Data"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/ImageData> <https://bmir-radx.github.io/radx-datahub-ontology/Data>)
 
