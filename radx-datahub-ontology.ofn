@@ -138,6 +138,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmi
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> (<https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile>)
 
 AnnotationAssertion(rdfs:seeAlso <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> <https://bmir-radx.github.io/radx-datahub-ontology/RADxDataDictionaryFormat>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> "Data Dictionary"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> "A Data Dictionary File is a Data Hub File that contains a RADx Data Dictionary.  It is formatted in the RADx Data Dictionary Format."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> "Data Dictionary File"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/contains> <https://bmir-radx.github.io/radx-datahub-ontology/TabularStudyDataFileMetadata>)))
@@ -267,7 +268,10 @@ DisjointClasses(<https://bmir-radx.github.io/radx-datahub-ontology/NonStandardiz
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> (<https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> "Orig Copy Data File"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> "OrigCopy File"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> "Original Copy Data File"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> "origcopy file"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> "OrigCopy Data File"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/contains> <https://bmir-radx.github.io/radx-datahub-ontology/NonStandardizedTabularData>)))
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> <https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile>)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> <https://bmir-radx.github.io/radx-datahub-ontology/RADxDataHubTopLevelEntity>)
@@ -427,6 +431,9 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/Tier3HarmonizedStu
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> (<https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> "Transform Copy Data File"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> "TransformCopy File"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> "transformcopy file"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> "Transform Copy Data File"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/contains> <https://bmir-radx.github.io/radx-datahub-ontology/StandardizedTabularData>)))
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataFile> <https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile>)
