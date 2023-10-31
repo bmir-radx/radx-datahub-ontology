@@ -172,7 +172,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmi
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData> "Harmonized Tabular Data is Standardized Tabular Data that is harmonized to one or more Common Data Elements (CDEs).
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData> "Harmonized Tabular Data is Standardized Tabular Data that is harmonized to one or more Common Data Elements (CDEs).
 
 We do not capture the notion of \"Fully\" or \"Maximally\" harmonized data.  We simply consider Harmonized Data to be any Data that contains data values that are described by one or more Common Data Elements (CDEs).
 
@@ -412,10 +412,10 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat> <h
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> "Tier 1 Data"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> "Tier 1 Data"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> "Tier 1 Harmonized Data is Study Data that has been harmonized against NIH Tier 1 Common Data Elements.  
 
-A list of Tier 1 Common Data Elements can be found in the [RADx Global Code: https://docs.google.com/spreadsheets/d/1famf1rpRpLz3Q-rLJ5t-pEbetPWasxsK/edit#gid=200816038"@en)
+A list of Tier 1 Common Data Elements can be found in the RADx Global Code Book."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> "Tier 1 Harmonized Study Data"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> <https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData>)
 
