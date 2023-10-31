@@ -100,6 +100,7 @@ SubObjectPropertyOf(<https://bmir-radx.github.io/radx-datahub-ontology/isOutputO
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat> "A binary data format is data format that uses a sequence of binary values, typically composed of 0s and 1s to represent data. In contrast to text-based data formats, like plain text or markup languages (e.g., JSON, XML), which use human-readable characters to represent data, binary formats are optimized for machine-level storage and processing. They are often more compact and efficient in terms of storage and transmission."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat> "Binary Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/DataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat>)
@@ -107,6 +108,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat> 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat> "A binary image data format is a binary data format that is used to store images as binary data. Binary image formats are designed to represent images in a way that is optimized for efficient storage, transmission, and processing by computers. They typically use a sequence of binary values (0s and 1s) to encode pixel data, often with minimal metadata or compression. Binary image formats are not intended to be human-readable, and their primary focus is on compact representation and quick access to pixel data.  
 
 Examples of Binary Image Data Formats are PNG (Portable Network Graphics) or JPEG (Joint Photographic Experts Group)."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat> "Binary Image Data Format"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/BinaryDataFormat> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/isFormatFor> <https://bmir-radx.github.io/radx-datahub-ontology/ImageData>)))
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/CovidTestImageData> (<https://bmir-radx.github.io/radx-datahub-ontology/CovidTestImageData>)
@@ -118,6 +120,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/CovidTestImageData
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat> "Comma-separated values (CSV) is a text file format that uses commas to separate values. A CSV file stores tabular data (numbers and text) in plain text, where each line of the file typically represents one data record. Each record consists of the same number of fields, and these are separated by commas in the CSV file. If the field delimiter itself may appear within a field, fields can be surrounded with quotation marks.[")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat> "CSV Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat>)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/isFormatFor> <https://bmir-radx.github.io/radx-datahub-ontology/TabularData>))
 
@@ -127,6 +130,10 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://bmir
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/CsvFile> "CSV File"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/CsvFile> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/File> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/hasFormat> <https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat>)))
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/CsvFile> DataHasValue(<https://bmir-radx.github.io/radx-datahub-ontology/hasFileExtension> ".csv"))
+
+# Class: <https://bmir-radx.github.io/radx-datahub-ontology/Data> (<https://bmir-radx.github.io/radx-datahub-ontology/Data>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/Data> "Data"@en)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile> (<https://bmir-radx.github.io/radx-datahub-ontology/DataDictionaryFile>)
 
@@ -158,6 +165,10 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile> <http
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/DataHubMetadataFile> "Data Hub Metadata File"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubMetadataFile> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataHubFile> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/contains> <https://bmir-radx.github.io/radx-datahub-ontology/Metadata>)))
 
+# Class: <https://bmir-radx.github.io/radx-datahub-ontology/File> (<https://bmir-radx.github.io/radx-datahub-ontology/File>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/File> "File"@en)
+
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://bmir-radx.github.io/radx-datahub-ontology/HarmonizedStudyData> "Harmonized Tabular Data is Standardized Tabular Data that is harmonized to one or more Common Data Elements (CDEs).
@@ -176,6 +187,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/ImageData> <https:
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/ImageDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/ImageDataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/ImageDataFormat> "Image Data Format"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/ImageDataFormat> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataFormat> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/isFormatFor> <https://bmir-radx.github.io/radx-datahub-ontology/ImageData>)))
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/ImageStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/ImageStudyData>)
@@ -187,10 +199,12 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/ImageStudyData> <h
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/JpegImageDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/JpegImageDataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/JpegImageDataFormat> "JPEG Image Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/JpegImageDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/JsonFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/JsonFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/JsonFormat> "Json Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/JsonFormat> <https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/JsonLdFile> (<https://bmir-radx.github.io/radx-datahub-ontology/JsonLdFile>)
@@ -214,6 +228,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/JsonLdMetadataForm
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/JsonMetadataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/JsonMetadataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/JsonMetadataFormat> "Json Metadata Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/JsonMetadataFormat> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/JsonFormat> <https://bmir-radx.github.io/radx-datahub-ontology/StructuredMetadataFormat>))
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/MetaFile> (<https://bmir-radx.github.io/radx-datahub-ontology/MetaFile>)
@@ -226,10 +241,12 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/MetaFile> ObjectSo
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/Metadata> (<https://bmir-radx.github.io/radx-datahub-ontology/Metadata>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/Metadata> "Metadata is Data that provides information about other data."@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/Metadata> "Metadata"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/Metadata> <https://bmir-radx.github.io/radx-datahub-ontology/Data>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/MetadataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/MetadataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/MetadataFormat> "Metadata Format"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/MetadataFormat> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataFormat> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/isFormatFor> <https://bmir-radx.github.io/radx-datahub-ontology/Metadata>)))
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData> (<https://bmir-radx.github.io/radx-datahub-ontology/MissingValueStandardizedData>)
@@ -258,6 +275,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/OrigCopyDataFile> 
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/PngImageDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/PngImageDataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/PngImageDataFormat> "PNG Image Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/PngImageDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/BinaryImageDataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/RADxCoordinationAndDataCollectionCenter> (<https://bmir-radx.github.io/radx-datahub-ontology/RADxCoordinationAndDataCollectionCenter>)
@@ -293,12 +311,18 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmi
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> "A RADx Program is a major programs funded by the RADx Initiative. RADx programs include RADx Tech, RADx Underserved Populations (RADx-UP), RADx Radical (RADx-rad), RADx Advancing Technology Platforms (RADx-ATP), and RADx Data Hub."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADxProgram> "RADx Program"@en)
 
+# Class: <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy> (<https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudy> "R A Dx Study"@en)
+
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudyDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/RADxStudyDataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/RADxStudyDataFormat> "RADx Study Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/RADxStudyDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/CsvDataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/SequenceDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/SequenceDataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/SequenceDataFormat> "Sequence Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/SequenceDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/DataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/SequenceStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/SequenceStudyData>)
@@ -318,6 +342,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/StandardizedTabula
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/StructuredMetadataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/StructuredMetadataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/StructuredMetadataFormat> "Structured Metadata Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/StructuredMetadataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/MetadataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/StudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/StudyData>)
@@ -334,7 +359,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/StudyDataFileMetad
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/StudyDataMetadataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/StudyDataMetadataFormat>)
 
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/StudyDataMetadataFormat> "StudyData Metadata Format"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/StudyDataMetadataFormat> "Study Data Metadata Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/StudyDataMetadataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/JsonLdMetadataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/StudyDocumentationFile> (<https://bmir-radx.github.io/radx-datahub-ontology/StudyDocumentationFile>)
@@ -353,6 +378,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/TabularData> <http
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/TabularDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/TabularDataFormat>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/TabularDataFormat> "Tabular Data Format"@en)
 EquivalentClasses(<https://bmir-radx.github.io/radx-datahub-ontology/TabularDataFormat> ObjectIntersectionOf(<https://bmir-radx.github.io/radx-datahub-ontology/DataFormat> ObjectSomeValuesFrom(<https://bmir-radx.github.io/radx-datahub-ontology/isFormatFor> <https://bmir-radx.github.io/radx-datahub-ontology/TabularData>)))
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/TabularStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/TabularStudyData>)
@@ -374,6 +400,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/TabularStudyDataFi
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat> (<https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat>)
 
 AnnotationAssertion(rdfs:comment <https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat> "A text file (sometimes spelled textfile; an old alternative name is flatfile) is a kind of computer file that is structured as a sequence of lines of electronic text.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat> "Text Data Format"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/TextDataFormat> <https://bmir-radx.github.io/radx-datahub-ontology/DataFormat>)
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData> (<https://bmir-radx.github.io/radx-datahub-ontology/Tier1HarmonizedStudyData>)
@@ -408,6 +435,7 @@ SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/TransformCopyDataF
 
 # Class: <https://bmir-radx.github.io/radx-datahub-ontology/UnstructuredDocumentationData> (<https://bmir-radx.github.io/radx-datahub-ontology/UnstructuredDocumentationData>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <https://bmir-radx.github.io/radx-datahub-ontology/UnstructuredDocumentationData> "Unstructured Documentation Data"@en)
 SubClassOf(<https://bmir-radx.github.io/radx-datahub-ontology/UnstructuredDocumentationData> <https://bmir-radx.github.io/radx-datahub-ontology/Data>)
 
 
