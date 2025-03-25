@@ -1,0 +1,8 @@
+"Entity type","ID","Term","Print name","Parents","Definition","Expanded definition","Example usage","See also","Synonyms","Acronym","Notes"
+"TYPE","ID","","LABEL","TI %","","","","","","",""
+"Class","DATAHUB:0004000","media type","media type","","","","","","","",""
+"Individual","DATAHUB:0004001","text__plain","text/plain","media type","","","","","","",""
+"Individual","DATAHUB:0004002","text__csv","text/csv","media type","","","","","","",""
+"Individual","DATAHUB:0004003","application__json","application/json","media type","","","","","","",""
+"Individual","DATAHUB:0004004","application__ld+json","application/ld+json","media type","","","","","","",""
+"","","","","media type","","","","","","",""

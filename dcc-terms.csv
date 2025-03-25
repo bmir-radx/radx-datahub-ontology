@@ -1,0 +1,6 @@
+"Entity type","Term","ID","Print name","Parents","Definition","Expanded definition","Example usage","See also","Synonyms","Acronym","Notes"
+"TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=\\\n","",""
+"Class","coordination center","DATAHUB:0001000","Coordination Center","","","","","","","",""
+"Class","data coordination center","DATAHUB:0001001","Data Coordination Center (DCC)","coordination center","A data coordination center (DCC) is a type of coordinating center that is responsible for managing the collection, curation, quality control, and submission of study data, ensuring adherence to required data standards.  A DCC may also be known as a Collection and Data Coordination Center (CDCC)","In general, DCCs are particularly common in multi-site clinical trials, epidemiological studies, and large research consortia where data needs to be harmonized across different locations. They play a critical role in maintaining scientific rigor by ensuring that data is collected, stored, and analyzed according to standardized protocols.","","","Coordination and Data Collection Center","DCC
+CDCC
+(C)DCC",""

@@ -1,0 +1,23 @@
+Prefix(:=<http://www.semanticweb.org/matthewhorridge/ontologies/2025/2/untitled-ontology-12/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/matthewhorridge/ontologies/2025/2/untitled-ontology-12>
+
+Declaration(ObjectProperty(<http://w3id.org/radx/hasMediaType>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://w3id.org/radx/hasMediaType> (hasMediaType)
+
+AnnotationAssertion(rdfs:label <http://w3id.org/radx/hasMediaType> "hasMediaType"@en)
+
+
+
+)

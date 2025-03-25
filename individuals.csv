@@ -1,0 +1,44 @@
+"Entity type","Term","ID","Print name","Parents","Definition","Expanded definition","Example usage","See also","Synonyms","Acronym","Notes"
+"TYPE","LABEL","ID","","TI % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=\\\n","",""
+"Individual","RADx","DATAHUB:0002002","RADx","","RADx stands for Rapid Acceleration of Diagnostics. It’s a program launched by the National Institutes of Health (NIH) in 2020, as part of the U.S. response to the COVID-19 pandemic. The goal of RADx was to accelerate the development, commercialization, and deployment of innovative diagnostic technologies—especially for COVID-19 testing.","The primary goals of RADx include:
+
+1. Accelerating the development, validation, and commercialization of innovative COVID-19 testing technologies
+2. Expanding testing capacity and accessibility across the United States
+3. Supporting the rapid deployment of accurate, reliable, and user-friendly testing solutions
+4. Addressing testing needs for diverse populations and settings
+
+RADx encompasses several coordinated programs:
+- RADx Tech: Focuses on early-stage test development through commercialization
+- RADx Advanced Technology Platforms (RADx-ATP): Scales up more mature testing technologies
+- RADx Radical (RADx-rad): Supports innovative, non-traditional approaches to testing
+- RADx Underserved Populations (RADx-UP): Addresses testing disparities in vulnerable communities","","RADx rad
+RADx tech
+RADx dht
+RADx up","Rapid Acceleration of Diagnostics
+RADx Program","",""
+"Individual","radx data hub","DATAHUB:0002045","","research data repository","The RADx Data Hub is a centralized research data repository for managing, organizing, and storing data collected from COVID-19 testing studies funded by the RADx Program. It provides a file-based structure for easy data access and interoperability.","","","","RADx repository
+RADx storage","",""
+"Individual","Stanford University","DATAHUB:0002052","","","","Stanford University is a partner in the RADx Data Hub responsible for translating proposed standards for data and metadata into computational form, validating data quality, and enabling standardization and harmonization.","","","Stanford
+Stanford partner","SU",""
+"Individual","radx digital health technologies (radx dht)","DATAHUB:0002047","RADx DHT","","An initiative to develop digital health solutions, such as smartphone apps, wearable devices, and software, to support contact tracing, verified COVID-19 test results, and monitoring health statuses of infected or potentially infected individuals.","","","","RADx-DHT
+digital health tools","RADx-DHT",""
+"Individual","radx global codebook","DATAHUB:0002048","RADx Global Code Book","","A standardized reference guide used to harmonize data and ensure consistent coding across studies.","","","","","",""
+"Individual","radx metadata specification","DATAHUB:0002049","","","A document detailing the structure and content of metadata files in the RADx Data Hub.","","","","","",""
+"Individual","Renaissance Computing Institute","DATAHUB:0002050","","","A partner in the RADx Data Hub responsible for cross-disciplinary program management, including technical development, researcher engagement, and training.","","","","RENCI
+program management partner","RENCI",""
+"Individual","dbGaP","DATAHUB:0002026","","database","The database of Genotype and Phenotype (dbGaP) developed by the National Center for Biotechnology Information (NCBI) to archive and distribute the results of studies involving high-density genotyping. RADx Data Hub uses dbGaP to manage study-level access to data files.","","","","genotype-phenotype database
+NCBI archive","",""
+"Individual","bioportal ontology repository","DATAHUB:0002007","BioPortal","ontology repository","BioPortal is an ontology repository developed and maintained by the National Center for Biomedical Ontology (NCBO). It provides a web-based platform for accessing, sharing, visualizing, and analyzing biomedical ontologies.","","","https://bioportal.bioontology.org","ontology repository
+bioportal","",""
+"Individual","Booz Allen Hamilton","DATAHUB:0002008","Booz Allen Hamilton","","Booz Allen Hamilton is a management consulting and technology consulting firm, with a strong focus on serving the U.S. government, particularly in areas like defense, intelligence, and civil agencies. Founded in 1914, Booz Allen is known for providing strategy, analytics, digital solutions, engineering, and cybersecurity services to clients in both the public and private sectors.","In the context of RADx, Booz Allen Hamilton serves as a support contractor, providing expertise in data infrastructure development, data curation, and project management to help manage and operate the RADx Data Hub and other programmatic functions.","Booz Allen Hamilton developed and maintains the RADx Data Hub, supporting data submission, curation, and access processes for all participating RADx studies.","https://www.boozallen.com","Booz Allen
+Booz partner","BAH","
+
+A partner in the RADx Data Hub focusing on developing and enhancing the platform's functions for data storage, sharing, analysis, and utilization."
+"Individual","center for expanded data annotation and retrieval","DATAHUB:0002009","Centre for Expanded Data Annotation and Retrieval (CEDAR)","","A web-based computational metadata management platform focused on helping users create high-quality biomedical metadata through templates that facilitate development, evaluation, use, and refinement of experiment-based biomedical metadata.","","","","CEDAR
+data annotation center","CEDAR",""
+"Individual","radx radical (radx-rad)","DATAHUB:0001002","RADx-rad","data coordination center","A RADx effort focusing on innovative, non-traditional COVID-19 testing approaches, including rapid detection devices and home-based testing technologies. RADx-rad seeks to address gaps in usability, accessibility, and accuracy.","","","","RADx-rad
+non-traditional diagnostics","RADx-rad",""
+"Individual","radx tech","DATAHUB:0001003","RADx Tech","data coordination center","RADx Tech (Rapid Acceleration of Diagnostics Technology) is a component program of the NIH RADx initiative that accelerated the development, validation, and commercialization of innovative point-of-care and home-based diagnostic technologies for COVID-19 detection, as well as improvements to clinical laboratory testing methods that directly detect the virus.","","","","point-of-care technology
+rapid diagnostics","RADx Tech","Parent program is RADx"
+"Individual","radx underserved populations (radx-up)","DATAHUB:0001004","","data coordination center","An initiative aimed at reducing health disparities in COVID-19 morbidity and mortality among underserved and vulnerable populations disproportionately affected by the pandemic. The goal is to understand and address the factors driving these disparities.","","","","RADx-UP
+underserved research","RADx-UP",""
