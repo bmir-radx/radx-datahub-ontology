@@ -1,5 +1,5 @@
 "Entity type","Term","ID","Print name","Parents","Definition","Expanded definition","Example usage","See also","Synonyms","Acronym","Notes"
-"TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=\\\n","",""
+"TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=|","A skos:altLabel SPLIT=|",""
 "Class","data","DATAHUB:0000100","Data","","Data refers to raw facts, values, or information that can be collected, stored, processed, and analyzed. It can be structured (organized in a fixed format) or unstructured (freeform and not organized into predefined models). Data becomes useful information when it is processed and interpreted.","","","","","",""
 "Class","metadata","DATAHUB:0000101","","data","Metadata is data that describe data","","","","","",""
 "Class","FAIR data","DATAHUB:0000102","","data","FAIR data is data that follows the FAIR principles, which stand for:
@@ -9,9 +9,8 @@
 - Interoperable
 - Reusable
 
-These principles ensure that data is well-structured, machine-readable, and reusable across different platforms, making it useful for research, industry, and long-term data management.","","","","findable, accessible, interoperable, reusable data","FAIR data",""
-"Class","findable data","DATAHUB:0000103","","data","Findable data is data that is adequately described by rich metadata, assigned a globally unique and persistent identifier, and registered or indexed in a searchable resource, enabling both humans and machines to locate and identify the data.","","The RADx study’s de-identified dataset was made findable by assigning a DOI, registering it in the RADx Data Hub catalog, and ensuring the metadata followed a standardized schema to support keyword and faceted search.","","Discoverable Data
-Searchable Data","",""
+These principles ensure that data is well-structured, machine-readable, and reusable across different platforms, making it useful for research, industry, and long-term data management.","","","","","",""
+"Class","findable data","DATAHUB:0000103","","data","Findable data is data that is adequately described by rich metadata, assigned a globally unique and persistent identifier, and registered or indexed in a searchable resource, enabling both humans and machines to locate and identify the data.","","The RADx study’s de-identified dataset was made findable by assigning a DOI, registering it in the RADx Data Hub catalog, and ensuring the metadata followed a standardized schema to support keyword and faceted search.","","Discoverable Data|Searchable Data","",""
 "Class","accessible data","DATAHUB:0000104","","data","Accessible data are data that can be retrieved using standardized communication protocols, and is made available under clear access conditions, ensuring that both humans and machines can obtain, use, or request the data, even if access is restricted or controlled.","Key aspects of accessible data are:
 
 Data are stored in a location that supports retrieval via standard protocols (e.g., HTTPS, FTP, API).
@@ -24,17 +23,14 @@ Access conditions are clearly specified, including:
 
 Even if the data itself is not openly accessible, its metadata must remain accessible so users can discover its existence and understand the conditions for obtaining access.
 
-Accessibility supports both human-readable access (via web interfaces) and machine-readable access (via APIs or metadata harvesters).","The de-identified RADx dataset was made accessible through the RADx Data Hub, where its metadata includes a persistent URL and a description of access conditions (open or controlled access).","","Obtainable Data
-Retrievable Data","",""
+Accessibility supports both human-readable access (via web interfaces) and machine-readable access (via APIs or metadata harvesters).","The de-identified RADx dataset was made accessible through the RADx Data Hub, where its metadata includes a persistent URL and a description of access conditions (open or controlled access).","","Obtainable Data|Retrievable Data","",""
 "Class","interoperable data","DATAHUB:0000105","","data","Interoperable data are data that is formatted and described using widely accepted standards, and is structured in a way that allows them to be integrated with other datasets and understood, interpreted, and processed by both humans and machines across different systems, tools, and domains.","Key aspects of interoperable data are:
 
 Data and metadata use standard vocabularies, ontologies, and controlled terminologies (e.g., MeSH).
 
 Data formats follow well-defined and widely adopted standards (e.g., CSV, JSON, XML).
 
-Metadata includes qualified references to external standards or ontologies (e.g., terms mapped to established data dictionaries).","The study team ensured their RADx data submission was interoperable by using standard variable names from the RADx Common Data Elements.","","Standards-compliant Data
-Machine-Interpretable Data
-Integration-Ready Data","",""
+Metadata includes qualified references to external standards or ontologies (e.g., terms mapped to established data dictionaries).","The study team ensured their RADx data submission was interoperable by using standard variable names from the RADx Common Data Elements.","","Standards-compliant Data||Machine-Interpretable Data||Integration-Ready Data","",""
 "Class","reusable data","DATAHUB:0000106","","data","Reusable data are data that is richly described with clear metadata, usage licenses, and provenance information, and is organized, documented, and formatted in a way that allows them to be understood, interpreted, and applied for new analyses, replication, or integration beyond the context of its original collection.","Key aspects of reusable data are:
 
 Described by rich metadata that explains the context of collection, methodology, variables, and units.
@@ -50,31 +46,15 @@ Enables future use for:
     - Secondary analysis.
     - Meta-analysis or combined analysis with other datasets.
     - Validation and replication studies.
-","The RADx study ensured its data was reusable by providing comprehensive metadata, clear data dictionaries, detailed documentation of the study methods, and a license specifying how others could use the data.","","Reusable Research Data
-Secondary Use Data
-Analysis-Ready Data","",""
-"Class","harmonized data","DATAHUB:0000107","","data","Harmonized data is data that has been transformed and standardized according to predefined rules or standards, enabling consistent use across separate studies.","","","","standardized data
-aligned data
-transformed data","",""
-"Class","tabular data","DATAHUB:0000108","","data","Tabular data is data that is organized into a structure of rows and columns, where each row represents a single record or observation, and each column represents a distinct variable or attribute measured across all records.","","","","Structured Data Table
-Data Table
-Rectangular Data","",""
-"Class","variable data","DATAHUB:0000109","","data","Variable data is data that consists of measured, observed, or recorded values associated with a specific variable within a dataset, where the values can differ across records, observations, or samples.","","","","Data Values
-Observed Data
-Variable-Level Data","",""
-"Class","human study data","DATAHUB:0000110","","data","Human study data is data that is collected, generated, or derived from research involving human participants, including demographic, clinical, behavioral, genomic, laboratory, and other health-related information gathered for the purpose of scientific investigation, clinical trials, observational studies, public health research, or diagnostic development.","","","","Human Subjects Data
-Participant Data
-Human Participant Study Data","",""
-"Class","de-identification technique processed data","DATAHUB:0000111","","data","De-identification technique processed data are data that have undergone a data processing process in which one or more de-identification techniques have been applied to reduce or eliminate the ability to directly or indirectly identify individuals described by the data.","","","","Privacy-Processed Data
-Data Processed for Privacy Protection","",""
-"Class","de-identified data","DATAHUB:0000112","","de-identification technique processed data","De-identified data is data that has undergone a process to remove or obscure all direct and indirect identifiers that could reasonably be used to identify an individual, thereby reducing the risk of re-identification.","","The research team submitted a de-identified dataset to the RADx Data Hub, ensuring that all participant names, medical record numbers, and contact information were removed or transformed according to approved de-identification protocols.","","De-identified Dataset
-Non-Identifiable Data","",""
-"Class","pseudonymized data","DATAHUB:0000113","","de-identification technique processed data","Pseudonymized data is data that has undergone a data de-identification process in which direct identifiers have been replaced with pseudonyms (artificial identifiers such as random codes), while a separate, secure key is retained that allows re-linking the pseudonyms to the original identifiers under controlled conditions.","","Prior to sharing the dataset with external collaborators, the research team applied pseudonymization by replacing participant names with randomly assigned study IDs, while keeping a secure key file linking the IDs back to the participants’ identities.","","Coded Data
-Key-Coded Data
-Indirectly Identifiable Data","",""
-"Class","anonymized data","DATAHUB:0000114","","de-identification technique processed data","Anonymized data is data that has undergone a data de-identification process in which all direct and indirect identifiers have been permanently removed, generalized, or transformed such that the data can no longer be linked to the original individuals by any reasonably available means.","","Before publicly releasing the environmental health study data, the team applied anonymization, ensuring that no participant could be identified directly or indirectly from the data.","","Fully De-identified Data
-Irreversibly De-identified Data
-Non-identifiable Data","",""
+","The RADx study ensured its data was reusable by providing comprehensive metadata, clear data dictionaries, detailed documentation of the study methods, and a license specifying how others could use the data.","","Reusable Research Data|Secondary Use Data|Analysis-Ready Data|","",""
+"Class","harmonized data","DATAHUB:0000107","","data","Harmonized data is data that has been transformed and standardized according to predefined rules or standards, enabling consistent use across separate studies.","","","","Standardized Data|Aligned Data|Transformed Data","",""
+"Class","tabular data","DATAHUB:0000108","","data","Tabular data is data that is organized into a structure of rows and columns, where each row represents a single record or observation, and each column represents a distinct variable or attribute measured across all records.","","","","Structured Data Table|Data Table|Rectangular Data","",""
+"Class","variable data","DATAHUB:0000109","","data","Variable data is data that consists of measured, observed, or recorded values associated with a specific variable within a dataset, where the values can differ across records, observations, or samples.","","","","Data Values|Observed Data|Variable-Level Data","",""
+"Class","human study data","DATAHUB:0000110","","data","Human study data is data that is collected, generated, or derived from research involving human participants, including demographic, clinical, behavioral, genomic, laboratory, and other health-related information gathered for the purpose of scientific investigation, clinical trials, observational studies, public health research, or diagnostic development.","","","","Human Subjects Data|Participant Data|Human Participant Study Data","",""
+"Class","de-identification technique processed data","DATAHUB:0000111","","data","De-identification technique processed data are data that have undergone a data processing process in which one or more de-identification techniques have been applied to reduce or eliminate the ability to directly or indirectly identify individuals described by the data.","","","","Privacy-Processed Data|Data Processed for Privacy Protection","",""
+"Class","de-identified data","DATAHUB:0000112","","de-identification technique processed data","De-identified data is data that has undergone a process to remove or obscure all direct and indirect identifiers that could reasonably be used to identify an individual, thereby reducing the risk of re-identification.","","The research team submitted a de-identified dataset to the RADx Data Hub, ensuring that all participant names, medical record numbers, and contact information were removed or transformed according to approved de-identification protocols.","","De-identified Dataset|Non-Identifiable Data","",""
+"Class","pseudonymized data","DATAHUB:0000113","","de-identification technique processed data","Pseudonymized data is data that has undergone a data de-identification process in which direct identifiers have been replaced with pseudonyms (artificial identifiers such as random codes), while a separate, secure key is retained that allows re-linking the pseudonyms to the original identifiers under controlled conditions.","","Prior to sharing the dataset with external collaborators, the research team applied pseudonymization by replacing participant names with randomly assigned study IDs, while keeping a secure key file linking the IDs back to the participants’ identities.","","Coded Data|Key-Coded Data|Indirectly Identifiable Data","",""
+"Class","anonymized data","DATAHUB:0000114","","de-identification technique processed data","Anonymized data is data that has undergone a data de-identification process in which all direct and indirect identifiers have been permanently removed, generalized, or transformed such that the data can no longer be linked to the original individuals by any reasonably available means.","","Before publicly releasing the environmental health study data, the team applied anonymization, ensuring that no participant could be identified directly or indirectly from the data.","","Fully De-identified Data|Irreversibly De-identified Data|Non-identifiable Data","",""
 "Class","generalized data","DATAHUB:0000115","","de-identification technique processed data","Generalized data is data that has undergone a data de-identification process in which specific values have been replaced by broader, less precise categories or ranges, reducing the level of detail to lower the risk of re-identification.","","In order to reduce re-identification risk, the research team applied generalization to participant birth dates, replacing exact dates (e.g., 1975-06-23) with birth years (e.g., 1975).
 ","Key aspects of generalized data are:
 
@@ -98,7 +78,7 @@ Completely removes values, leaving either a blank, null, or masked entry (e.g., 
 
 May be applied systematically (e.g., removing all phone numbers) or selectively (e.g., suppressing data for small population cells to prevent deductive identification).
 
-Used in combination with generalization, pseudonymization, or other de-identification methods to meet privacy and compliance requirements.","To protect participant privacy, ZIP codes for geographic areas with fewer than 20,000 residents were treated as suppressed data, with the values removed from the dataset before submission to the RADx Data Hub.","","Redacted Data ","",""
+Used in combination with generalization, pseudonymization, or other de-identification methods to meet privacy and compliance requirements.","To protect participant privacy, ZIP codes for geographic areas with fewer than 20,000 residents were treated as suppressed data, with the values removed from the dataset before submission to the RADx Data Hub.","","Redacted Data","",""
 "Class","zip code truncated data","DATAHUB:0000117","","de-identification technique processed data","ZIP code truncated data are generalized data that have undergone a data de-identification process in which the full ZIP code has been shortened to the first three digits, reducing geographic precision to lower the risk of re-identification.","Key aspects of zip code truncation are:
 
 Applied to postal codes (in the U.S., ZIP codes; in other regions, analogous postal codes).
@@ -109,12 +89,8 @@ Commonly reduces ZIP codes from 5 digits (e.g., 94110) to 3 digits (e.g., 941).
 
 Based on regulatory standards, such as HIPAA Safe Harbor, which requires ZIP code truncation unless the population in that 3-digit region is too small.
 
-May be combined with suppression if the truncated region contains a population under 20,000, per HIPAA guidelines.","To comply with HIPAA Safe Harbor requirements, the study team provided ZIP code truncated data, removing the last two digits and retaining only the first three digits of each ZIP code.","","Truncated ZIP Data
-3-Digit ZIP Data
-Geographic Precision-Reduced Data","",""
-"Class","age capped data","DATAHUB:0000118","","de-identification technique processed data","Age-capped data are data that have undergone a data de-identification process in which ages exceeding a specified threshold are replaced with a maximum allowable age category, reducing the risk of re-identification for older individuals.","","As part of the de-identification process, the research team provided age-capped data by recording all participants over the age of 89 as ""90 or older"" to comply with HIPAA Safe Harbor requirements.","","Top-Coded Age Data
-Maximum Age Data
-Upper Limit Age Data","",""
+May be combined with suppression if the truncated region contains a population under 20,000, per HIPAA guidelines.","To comply with HIPAA Safe Harbor requirements, the study team provided ZIP code truncated data, removing the last two digits and retaining only the first three digits of each ZIP code.","","Truncated ZIP Data|3-Digit ZIP Data|Geographic Precision-Reduced Data","",""
+"Class","age capped data","DATAHUB:0000118","","de-identification technique processed data","Age-capped data are data that have undergone a data de-identification process in which ages exceeding a specified threshold are replaced with a maximum allowable age category, reducing the risk of re-identification for older individuals.","","As part of the de-identification process, the research team provided age-capped data by recording all participants over the age of 89 as ""90 or older"" to comply with HIPAA Safe Harbor requirements.","","Top-Coded Age Data|Maximum Age Data|Upper Limit Age Data","",""
 "Class","HIPAA safe harbor data","DATAHUB:0000119","HIPAA Safe Harbor Data","de-identified data","HIPAA Safe Harbor data are health data that have undergone a de-identification process defined by the HIPAA Privacy Rule, in which 18 specific direct and quasi-identifiers have been removed or modified, ensuring the data is considered de-identified under HIPAA standards.","HIPPA Safe Harbor Data has been processed to remove or modify 18 identifiers, including:
     - Names
     - Geographic subdivisions smaller than a state (except the first 3 digits of ZIP codes if population >20,000)
@@ -141,8 +117,7 @@ Individuals aged 90 or older are grouped into a single category (e.g., “90 or 
 
 Results in data considered de-identified under HIPAA Privacy Rule.","The RADx Data Hub accepts HIPAA Safe Harbor data from study teams, ensuring that all direct identifiers, including names, addresses, and dates of birth, were removed or generalized.
 
-","","Safe Harbor De-identified Data
-HIPAA-Compliant De-identified Data","",""
+","","Safe Harbor De-identified Data|HIPAA-Compliant De-identified Data","",""
 "Class","information","DATAHUB:0000120","Information","data","Information is data that has been processed, organized, or structured in a way that provides meaning, context, or knowledge to its users. Information arises from data interpretation and can be used to support decision-making, analysis, communication, or reasoning. Unlike raw data, information conveys semantic value by linking data to its context and making it understandable to humans or computational systems.","","","","","",""
 "Class","personally identifiable information","DATAHUB:0000121","Personally Identifiable Information (PII)","information","Personally Identifiable Information (PII) is information that can be used to directly or indirectly identify an individual person. This includes data such as names, social security numbers, contact information, medical record numbers, or any other information that, alone or when combined with other data, can reveal a person’s identity. PPI is subject to strict privacy, security, and regulatory protections, especially in research, healthcare, and public health contexts.","Examples of PII are:
 
@@ -152,11 +127,8 @@ Phone Number
 Social Security Number
 Medical Record Number
 Email Address
-Biometric Data (e.g., fingerprints, facial images)","","","PII
-personal data","",""
-"Class","protected health information (phi)","DATAHUB:0000122","Protetected Health Information","information","Protected Health Information (PHI) is individually identifiable health information that is created, received, transmitted, or maintained by a covered entity or business associate in relation to health care, payment for health care, or health care operations, and that is protected under the HIPAA Privacy Rule.","","","","PHI
-HIPAA-Protected Data
-Individually Identifiable Health Information (under HIPAA)","PHI",""
+Biometric Data (e.g., fingerprints, facial images)","","","Personal Data","PII",""
+"Class","protected health information (phi)","DATAHUB:0000122","Protetected Health Information","information","Protected Health Information (PHI) is individually identifiable health information that is created, received, transmitted, or maintained by a covered entity or business associate in relation to health care, payment for health care, or health care operations, and that is protected under the HIPAA Privacy Rule.","","","","HIPAA-Protected Data|PHI|Individually Identifiable Health Information (under HIPAA)","PHI",""
 "Class","date shifted data","DATAHUB:0002072","","de-identified data","Date-shifted data are data that have undergone a data de-identification process in which all dates in a record have been systematically adjusted forward or backward by a consistent, randomly selected offset, preserving the temporal relationships within each record while obscuring the actual calendar dates.
 
 ","Key aspects of date shifted data are:
@@ -169,6 +141,4 @@ Each participant (or dataset) can have a unique, random offset, or all records c
 
 Date shifts are often used in combination with other techniques (e.g., generalization, suppression) to meet privacy standards.
 
-Commonly used to meet HIPAA Expert Determination requirements for de-identification when dates are considered quasi-identifiers.","To de-identify participant data, the study team applied a date shift of +117 days, meaning all event dates (e.g., enrollment date, test date) were shifted forward by exactly 117 days for each participant.","","Temporally Offset Data
-Date-Offset Data
-Shifted Dates Data","",""
+Commonly used to meet HIPAA Expert Determination requirements for de-identification when dates are considered quasi-identifiers.","To de-identify participant data, the study team applied a date shift of +117 days, meaning all event dates (e.g., enrollment date, test date) were shifted forward by exactly 117 days for each participant.","","Temporally Offset Data|Date-Offset Data|Shifted Dates Data","",""

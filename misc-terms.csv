@@ -1,13 +1,12 @@
 "Entity type","Term","ID","Print name","Parents","Definition","Expanded definition","Example usage","See also","Synonyms","Acronym","Notes"
-"TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=\\\n","",""
+"TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=|","",""
 "Class","repository","DATAHUB:0002001","","","","","","","","",""
-"Class","RADx awardee","DATAHUB:0002005","RADx Awardee","","A RADx awardee is an organization or entity that has received funding under the RADx Program to conduct research and provide study data.","A RADx awardee is an organization, institution, company, or research entity that has successfully secured competitive funding under the National Institutes of Health's RADx Program. These awardees include academic research institutions, biotechnology startups, established diagnostic companies, and public-private partnerships selected through a rigorous evaluation process based on scientific merit, technical feasibility, and potential for rapid impact.","","","grantee
-funding recipient","",""
+"Class","RADx awardee","DATAHUB:0002005","RADx Awardee","","A RADx awardee is an organization or entity that has received funding under the RADx Program to conduct research and provide study data.","A RADx awardee is an organization, institution, company, or research entity that has successfully secured competitive funding under the National Institutes of Health's RADx Program. These awardees include academic research institutions, biotechnology startups, established diagnostic companies, and public-private partnerships selected through a rigorous evaluation process based on scientific merit, technical feasibility, and potential for rapid impact.","","","grantee|funding recipient","",""
 "Class","ontology repository","DATAHUB:0002006","Ontology Repository","repository","","","","","","",""
 "Class","co-investigator","DATAHUB:0002010","Co-Investigator","role","A Co-Investigator is a key member of a research team who plays a significant role in the design, execution, and/or management of a project, but is not the primary lead. The Principal Investigator (PI) is the person officially in charge of the project, while Co-Investigators work alongside the PI, contributing their expertise and helping ensure the project’s success.","","","","","Co-I",""
-"Class","contact principal investigator","DATAHUB:0002011","Contact PI","role","A  Contact Principal Investigator (Contact PI) is the lead PI responsible for official communication between a research team and the funding agency, such as the NIH. This role typically comes into play in multi-PI grants, where two or more PIs share responsibility for leading the project.","","","","","Contact PI",""
-"Class","content rules for data submitters","DATAHUB:0002012","","","Guidelines detailing how data files should be structured and formatted for submission to the RADx Data Hub.","","","","","",""
-"Class","COVID-19 testing","DATAHUB:0002013","","","A focus of RADx Program-funded research studies, involving efforts to enhance and analyze testing strategies and data.","","","","","",""
+"Class","contact principal investigator","DATAHUB:0002011","Contact PI","role","A  Contact Principal Investigator (Contact PI) is the lead PI responsible for official communication between a research team and the funding agency, such as the NIH. This role typically comes into play in multi-PI grants, where two or more PIs share responsibility for leading the project.","","","","Contact PI","",""
+"Class","content rules for data submitters","DATAHUB:0002012","","radx standard operating procedure","Guidelines detailing how data files should be structured and formatted for submission to the RADx Data Hub.","","","","","",""
+"Class","COVID-19 testing","DATAHUB:0002013","","study focus","A focus of RADx Program-funded research studies, involving efforts to enhance and analyze testing strategies and data.","","","","","",""
 "Class","role","DATAHUB:0002014","","","","","","","","",""
 "Class","curator","DATAHUB:0002015","","role","A RADx Data Hub Curator is a designated member of the RADx Support Team responsible for facilitating and overseeing the submission of data to the RADx Data Hub. The curator’s responsibilities include providing expert guidance to data contributors, answering technical and procedural inquiries, advising on data formatting and de-identification standards, conducting comprehensive reviews of submitted datasets for accuracy, completeness, and compliance with data submission requirements, and granting formal approval for data to be ingested into the RADx Data Hub.","The RADx curator role is specific to the RADx Initiative, which accelerates diagnostic development and ensures that COVID-19 diagnostic data is standardized, de-identified, and accessible through the RADx Data Hub for research and public health purposes.
 
@@ -16,47 +15,24 @@ Key Responsibilities:
 Responding to submitter questions about data structure and standards.
 Advising submitters on de-identification best practices.
 Conducting pre-ingestion review of submitted data.
-Approving compliant submissions for final inclusion in the RADx Data Hub.","","","Data Curator
-Submission Assistant
-RADx Curator
-RADx Data Curator
-Data Submission Curator (RADx)","","Parent Term: Data Curator (OBI:0002329) (if aligning with an existing ontology like OBI - Ontology for Biomedical Investigations)"
+Approving compliant submissions for final inclusion in the RADx Data Hub.","","","Data Curator|Submission Assistant|RADx Curator|RADx Data Curator|Data Submission Curator (RADx)","","Parent Term: Data Curator (OBI:0002329) (if aligning with an existing ontology like OBI - Ontology for Biomedical Investigations)"
 "Class","data collection form","DATAHUB:0002016","","study document","Forms used to record data during a study, often detailing specific variables or measurements.","","","","","",""
-"Class","data principal investigator","DATAHUB:0002018","Data Principal Investigator","principal investigator","A Data Principal Investigator (Data PI) is a designated individual who holds primary responsibility for the management, quality assurance, and compliance of a specific dataset produced or submitted in the context of a research project or data-sharing initiative. The Data PI ensures that the data is accurate, complete, well-documented, and adheres to all applicable standards, regulations, and policies governing data collection, curation, and sharing. The Data PI also serves as the primary point of contact for questions related to the dataset’s content, provenance, and interpretation.","","","","Data PI
-Data Custodian
-Lead Data Submitter","Data PI",""
-"Class","data repository","DATAHUB:0002019","Data Repository","repository","A data repository is a repository that is specifically designed to store, organize, preserve, and manage access to digital data and its associated metadata.","","","","Data Archive
-Data Registry
-Data Sharing Platform
-Data Repository System","","has a data access policy"
+"Class","data principal investigator","DATAHUB:0002018","Data Principal Investigator","principal investigator","A Data Principal Investigator (Data PI) is a designated individual who holds primary responsibility for the management, quality assurance, and compliance of a specific dataset produced or submitted in the context of a research project or data-sharing initiative. The Data PI ensures that the data is accurate, complete, well-documented, and adheres to all applicable standards, regulations, and policies governing data collection, curation, and sharing. The Data PI also serves as the primary point of contact for questions related to the dataset’s content, provenance, and interpretation.","","","","Data PI|Data Custodian|Lead Data Submitter","Data PI",""
+"Class","data repository","DATAHUB:0002019","Data Repository","repository","A data repository is a repository that is specifically designed to store, organize, preserve, and manage access to digital data and its associated metadata.","","","","Data Archive|Data Registry|Data Sharing Platform|Data Repository System","","has a data access policy"
 "Class","research data repository","DATAHUB:0002020","Research Data Repository","data repository","A research data repository is a data repository that contains research data that is the product of a research study.","","","","","",""
-"Class","data use agreement","DATAHUB:0002022","","","A formal agreement executed between RADx and the user, defining the terms and conditions under which study data obtained from the RADx Data Hub can be used for secondary research.","","","","DUA
-use agreement","",""
-"Class","data versioning","DATAHUB:0002024","","","The process of managing updates to data files in the RADx Data Hub by ensuring that new versions replace previous ones without disrupting system integrity.","","","","file updates
-dataset replacement","",""
-"Class","license","","","","","","","","","",""
-"Class","data wrangler license","DATAHUB:0002025","","license","A permission granted to RADx Data Hub users for using advanced analytics tools, such as SAS or Data Wrangler, for enhanced data processing capabilities.","","","","license request
-analytics license","",""
-"Class","dbGaP access","DATAHUB:0002027","","","A mechanism for requesting access to sensitive data hosted in the RADx Data Hub. dbGaP provides controlled access to human subject data in compliance with Data Use Certification Agreements.","","","","genotype and phenotype database access
-dbGaP permissions","",""
+"Class","data use agreement","DATAHUB:0002022","","","A data use agreement is a type of formal agreement executed between RADx and the user, specifying the terms and conditions for using RADx Data Hub study data in secondary research","","","","DUA|Use agreement|Research data use agreement|Secondary data use agreement","",""
+"Class","data versioning","DATAHUB:0002024","","","The process of managing updates to data files in the RADx Data Hub by ensuring that new versions replace previous ones without disrupting system integrity.","","","","file updates|dataset replacement","",""
+"Class","license","DATAHUB:0002096","","","A license is a legal agreement that specifies the permissions and restrictions associated with the use, modification, or distribution of software","","","","","",""
+"Class","data wrangler license","DATAHUB:0002025","","license","A permission granted to RADx Data Hub users for using advanced analytics tools, such as SAS or Data Wrangler, for enhanced data processing capabilities.","","","","license request|analytics license","",""
+"Class","dbGaP access procedure","DATAHUB:0002027","","radx standard operating procedure","A mechanism for requesting access to sensitive data hosted in the RADx Data Hub. dbGaP provides controlled access to human subject data in compliance with Data Use Certification Agreements.","","","","genotype and phenotype database access|dbGaP permissions","",""
 "Class","identifier","DATAHUB:0002080","","","","","","","","",""
-"Class","digital object identifier (DOI)","DATAHUB:0002028","","identifier","A Digital Object Identifier (DOI) is a persistent digital identifier that is assigned to an object (such as a publication, dataset, or software) to provide a globally unique, permanent, and resolvable reference to that object, even if its location or ownership changes over time.","","","","Persistent Digital Identifier
-Global Object Identifier","DOI",""
-"Class","era commons account","DATAHUB:0002029","","","An account system used for accessing NIH services, including the RADx Data Hub. Required for requesting access to sensitive data files and registering studies.","","","","researcher account
-NIH login","",""
-"Class","file bundle","DATAHUB:0002031","","","A file bundle is a collection of related files that together represent a complete data submission unit, consisting of at least one data file, its associated data dictionary, and accompanying metadata.","","Each study submitted to the RADx Data Hub must provide a file bundle that includes a data file (DATA), a corresponding data dictionary (DICT), and submission metadata (META).","","Data Submission Package
-Data File Bundle
-Study File Package","",""
-"Class","health insurance portability and accountability act (hipaa)","DATAHUB:0002034","","","A U.S. law regulating the privacy and security of individually identifiable health information. It governs how this information can be used, shared, and maintained by covered entities.","","","","HIPAA
-health data regulation","",""
-"Class","investigator","DATAHUB:0002035","","role","An individual conducting a study or project, often a clinician, researcher, or partner involved in RADx-funded studies.","","","","researcher
-clinical investigator
-","",""
+"Class","digital object identifier (DOI)","DATAHUB:0002028","","identifier","A Digital Object Identifier (DOI) is a persistent digital identifier that is assigned to an object (such as a publication, dataset, or software) to provide a globally unique, permanent, and resolvable reference to that object, even if its location or ownership changes over time.","","","","Persistent Digital Identifier|Global Object Identifier","DOI",""
+"Class","era commons account","DATAHUB:0002029","","","An account system used for accessing NIH services, including the RADx Data Hub. Required for requesting access to sensitive data files and registering studies.","","","","researcher account|NIH login","",""
+"Class","file bundle","DATAHUB:0002031","","","A file bundle is a collection of related files that together represent a complete data submission unit, consisting of at least one data file, its associated data dictionary, and accompanying metadata.","","Each study submitted to the RADx Data Hub must provide a file bundle that includes a data file (DATA), a corresponding data dictionary (DICT), and submission metadata (META).","","Data Submission Package|Data File Bundle|Study File Package","",""
+"Class","health insurance portability and accountability act (hipaa)","DATAHUB:0002034","","","A U.S. law regulating the privacy and security of individually identifiable health information. It governs how this information can be used, shared, and maintained by covered entities.","","","","HIPAA|health data regulation","",""
+"Class","investigator","DATAHUB:0002035","","role","An individual conducting a study or project, often a clinician, researcher, or partner involved in RADx-funded studies.","","","","researcher|clinical investigator|","",""
 "Class","study identifier","DATAHUB:0002036","","identifier","A Study Identifier is a unique alphanumeric code or reference string assigned to a research study to unambiguously identify it within a specific system, repository, or administrative context. Study identifiers are used to track, reference, and manage the study throughout its lifecycle, from registration and data submission to publication, reporting, and data sharing. Study identifiers may be assigned by funding agencies, regulatory bodies, data repositories, or institutional review boards, and may follow domain-specific conventions, such as a ClinicalTrials.gov NCT Number or a dbGaP PHS Number.","","","","","",""
-"Class","PHS number","DATAHUB:0002037","","study identifier","A PHS Number is a unique study identifier assigned by the Database of Genotypes and Phenotypes (dbGaP) to a registered study upon approval for data submission and sharing. The identifier allows for the tracking, referencing, and management of the study’s data, metadata, and access policies within the dbGaP system. The PHS Number follows a standardized format, typically including the prefix phs, a unique numeric string, a version number, and a part number (e.g., phs002345.v1.p1). In the context of RADx and other NIH-funded projects, the PHS Number serves as the official reference for the study in NIH data sharing systems, ensuring proper documentation and compliance with data sharing policies.","","","","PHS
-dbGaP Study Accession
-Public Health Study Number
-dbGaP Identifier","",""
+"Class","PHS number","DATAHUB:0002037","","study identifier","A PHS Number is a unique study identifier assigned by the Database of Genotypes and Phenotypes (dbGaP) to a registered study upon approval for data submission and sharing. The identifier allows for the tracking, referencing, and management of the study’s data, metadata, and access policies within the dbGaP system. The PHS Number follows a standardized format, typically including the prefix phs, a unique numeric string, a version number, and a part number (e.g., phs002345.v1.p1). In the context of RADx and other NIH-funded projects, the PHS Number serves as the official reference for the study in NIH data sharing systems, ensuring proper documentation and compliance with data sharing policies.","","","","PHS|dbGaP Study Accession|Public Health Study Number|dbGaP Identifier","",""
 "Class","principal investigator","DATAHUB:0002038","Principal Investigator","role","A Principal Investigator (PI) is the lead researcher responsible for the preparation, conduct, and administration of a research grant, cooperative agreement, training or public service project, contract, or other sponsored project. ","Key responsibilities and characteristics include:
 
 - Scientific leadership: The PI designs the research, directs the work, and takes primary responsibility for the intellectual conduct of the project.
@@ -68,30 +44,24 @@ Institutional requirements: Must meet institution-specific eligibility requireme
 Ethics and compliance: Ensures the research adheres to ethical standards, including human subjects protection, animal welfare, conflict of interest policies, and research integrity.
 
 In large projects, there may be multiple investigators, but the PI holds primary responsibility. Some grants may have Co-Principal Investigators who share leadership responsibilities.","","","","PI",""
-"Class","published manuscript","DATAHUB:0002039","","","A Published Manuscript is a peer-reviewed, publicly accessible scientific document that presents the research findings, methods, results, and conclusions of a study. It is typically published in an academic journal, conference proceedings, or other recognized scholarly outlet and serves as an official record of the study’s contributions to the scientific community.","","","","research article
-study publication","",""
+"Class","published manuscript","DATAHUB:0002039","","","A Published Manuscript is a peer-reviewed, publicly accessible scientific document that presents the research findings, methods, results, and conclusions of a study. It is typically published in an academic journal, conference proceedings, or other recognized scholarly outlet and serves as an official record of the study’s contributions to the scientific community.","","","","research article|study publication","",""
 "Class","published RADx manuscript","DATAHUB:0002040","","published manuscript","","","","","","",""
-"Class","radx data dictionary","DATAHUB:0002042","","","A document defining characteristics of the core data elements used in a study, such as name, description, coded values, and actual values, with one dictionary per high-level data file.","","","","study data dictionary
-data description","",""
-"Class","radx data dictionary specification","DATAHUB:0002043","","","A document outlining how data dictionaries should be formatted and structured.","","","","","",""
-"Class","radx data files and conventions document","DATAHUB:0002044","","","A document describing standards for creating and managing data files in the RADx Data Hub.","","","","","",""
-"Class","radx data hub partner","DATAHUB:0002046","","","The RADx Data Hub is supported by partnerships with Stanford University, Booz Allen Hamilton, and the Renaissance Computing Institute (RENCI). These partners focus on data hub development, data management, and program management to enable efficient research and collaboration.","","","","data hub collaboration
-RADx partnership","RADx DHP
+"Class","radx data dictionary","DATAHUB:0002042","","metadata","A document defining characteristics of the core data elements used in a study, such as name, description, coded values, and actual values, with one dictionary per high-level data file.","","","","study data dictionary|data description","",""
+"Class","specification document","DATAHUB:0002099","","","","","","","","",""
+"Class","radx data dictionary specification","DATAHUB:0002043","","specification document","A document outlining how data dictionaries should be formatted and structured.","","","","","",""
+"Class","radx data files and conventions document","DATAHUB:0002044","","specification document","A document describing standards for creating and managing data files in the RADx Data Hub.","","","","","",""
+"Class","radx data hub partner","DATAHUB:0002046","","","The RADx Data Hub is supported by partnerships with Stanford University, Booz Allen Hamilton, and the Renaissance Computing Institute (RENCI). These partners focus on data hub development, data management, and program management to enable efficient research and collaboration.","","","","data hub collaboration|RADx partnership","RADx DHP
 DHP",""
 "Class","research","DATAHUB:0002091","","","Research is a kind of systematic investigation undertaken to generate, validate, or refine knowledge in a disciplined and methodical manner.","","","","","",""
 "Class","primary research","DATAHUB:0002092","","research","Primary research is a kind of research that is distinguished by its generation of new, firsthand data rather than the use of existing sources.","","","","","",""
-"Class","secondary research","DATAHUB:0002051","","research","Secondary research is a kind of research that is characterized by its reliance on pre-existing data sources rather than the direct collection of new data.","","","","data reuse
-secondary analysis","",""
+"Class","secondary research","DATAHUB:0002051","","research","Secondary research is a kind of research that is characterized by its reliance on pre-existing data sources rather than the direct collection of new data.","","","","data reuse|secondary analysis","",""
 "Class","structured description","DATAHUB:0002053","","","Detailed and standardized information about a data file’s attributes, typically included in metadata files.","","","","","",""
-"Class","study","DATAHUB:0002054","","","A research protocol or set of experiments designed to investigate research questions or evaluate biomedical or health-related outcomes.","","","","research study
-clinical study","",""
+"Class","study","DATAHUB:0002054","","","A research protocol or set of experiments designed to investigate research questions or evaluate biomedical or health-related outcomes.","","","","research study|clinical study","",""
 "Class","study document","DATAHUB:0002055","","","Supporting materials for research studies, including protocols, forms, and other context-related files.","","","","","",""
 "Class","study protocol","DATAHUB:0002056","","study document","Documents describing the design, objectives, and methods of a research study.","","","","","",""
-"Class","standard operating procedure","DATAHUB:0002078","","","","","","","","",""
-"Class","radx standard operating procedure","DATAHUB:0002076","","standard operating procedure","","","","","","",""
-"Class","study registration sop","DATAHUB:0002057","","radx standard operating procedure","The process by which investigators submit their studies to the RADx Data Hub to make them available for secondary research.","","","","study submission
-research registration
-study registration","",""
+"Class","standard operating procedure","DATAHUB:0002078","","","A standard operating procedure is a formal document that specifies standardized instructions for performing a recurring task or process ","","","","","",""
+"Class","radx standard operating procedure","DATAHUB:0002076","","standard operating procedure","A RADx standard operating procedure is a formal document issued by the RADx program that specifies standardized instructions for carrying out RADx-related processes in a consistent and compliant manner.","","","","","",""
+"Class","study registration procedure","DATAHUB:0002057","","radx standard operating procedure","A study registration procedure is a RADx standard operating procedure that defines the process for registering a study with the RADx Data Hub, including required documentation, metadata submission, and compliance checks","","","","study submission|research registration|study registration","",""
 "Class","human study","DATAHUB:0002065","","study","A human study refers to any type of research that involves human participants to answer specific questions about health, behavior, or biomedical phenomena. These studies are conducted to improve understanding of human biology, evaluate the safety and effectiveness of medical interventions, and address social or psychological questions.","","","","","","Types of Human Studies
 Clinical Trials:
 Interventional studies where participants receive specific treatments, interventions, or tests.
@@ -107,23 +77,16 @@ Studies that explore human behavior, attitudes, and social dynamics.
 Examples include surveys on mental health, dietary habits, or community responses to public health initiatives.
 Genetic and Genomic Studies:
 Research involving human genetic material to study hereditary conditions, gene-environment interactions, or personalized medicine approaches."
-"Class","partipant","DATAHUB:0002066","","role","A participant is a role played by a human individual who consents to take part in a research study, clinical trial, or public health investigation, during which they may provide data, biospecimens, responses, or undergo interventions for the purpose of contributing to scientific knowledge.","","","","Study Participant
-Human Subject
-Research Participant","",""
-"Class","data record","DATAHUB:0002067","","","A data record is a single structured unit of data that represents all collected information for one entity, observation, or event within a dataset.","","","","Record
-Data Row
-Observation Record
-Entry","",""
-"Class","estimated sample size","DATAHUB:0002068","","study quality","","","","","","",""
+"Class","partipant","DATAHUB:0002066","","role","A participant is a role played by a human individual who consents to take part in a research study, clinical trial, or public health investigation, during which they may provide data, biospecimens, responses, or undergo interventions for the purpose of contributing to scientific knowledge.","","","","Study Participant|Human Subject|Research Participant","",""
+"Class","data record","DATAHUB:0002067","","","A data record is a single structured unit of data that represents all collected information for one entity, observation, or event within a dataset.","","","","Record|Data Row|Observation Record|Entry","",""
+"Class","estimated sample size","DATAHUB:0002068","","study quality","An estimated sample size is a type of study design quality that represents the projected number of participants or samples expected to be enrolled or collected in a study, based on statistical considerations or study objectives.
+The actual sample size may vary from this estimate depending on recruitment outcomes, eligibility criteria, or other practical factors.","","","","","",""
 "Class","sample size","DATAHUB:0002069","","study quality","Sample size is a numerical quantity that represents the total number of distinct units (such as participants, specimens, or observations) that are included in a research study and captured in its dataset for the purpose of analysis and reporting.","Sample size may refer to:
 
 The number of participants (for human studies).
 The number of biospecimens (for lab-based studies).
-The number of observations (for time series or repeated measures studies)","The sample size for the RADx observational study was 2,500 participants, with each participant contributing one record to the study’s dataset.","","Study Sample Size
-Dataset Sample Size
-Number of Study Participants","",""
-"Class","study population","DATAHUB:0002070","","study quality","A study population is a defined group of individuals, specimens, or units that meet the eligibility criteria for inclusion in a research study, and from which data are collected to address the study’s research questions.","","","","Research Population
-Participant Pool","",""
+The number of observations (for time series or repeated measures studies)","The sample size for the RADx observational study was 2,500 participants, with each participant contributing one record to the study’s dataset.","","Study Sample Size|Dataset Sample Size|Number of Study Participants|Number of participants|Number of subjects|Participant count|Subject count","",""
+"Class","study population","DATAHUB:0002070","","study quality","A study population is a defined group of individuals, specimens, or units that meet the eligibility criteria for inclusion in a research study, and from which data are collected to address the study’s research questions.","","","","Research Population|Participant Pool","",""
 "Class","waste water study","DATAHUB:0002071","","study","A waste water study is a study who's focus is examining the contents of waste water","","","","","",""
 "Class","date shifted data","DATAHUB:0002072","","de-identification technique processed data","Date-shifted data are data that have undergone a data de-identification process in which all dates in a record have been systematically adjusted forward or backward by a consistent, randomly selected offset, preserving the temporal relationships within each record while obscuring the actual calendar dates.
 
@@ -137,9 +100,8 @@ Each participant (or dataset) can have a unique, random offset, or all records c
 
 Date shifts are often used in combination with other techniques (e.g., generalization, suppression) to meet privacy standards.
 
-Commonly used to meet HIPAA Expert Determination requirements for de-identification when dates are considered quasi-identifiers.","To de-identify participant data, the study team applied a date shift of +117 days, meaning all event dates (e.g., enrollment date, test date) were shifted forward by exactly 117 days for each participant.","","Temporally Offset Data
-Date-Offset Data
-Shifted Dates Data","",""
+Commonly used to meet HIPAA Expert Determination requirements for de-identification when dates are considered quasi-identifiers.","To de-identify participant data, the study team applied a date shift of +117 days, meaning all event dates (e.g., enrollment date, test date) were shifted forward by exactly 117 days for each participant.","","Temporally Offset Data|Date-Offset Data|Shifted Dates Data","",""
 "Class","database","DATAHUB:0002073","Database","","A database is a structured collection of data that is organized, stored, and managed electronically, typically using a database management system (DBMS), to enable efficient querying, retrieval, updating, and analysis of the data.","","The clinical trial data were stored in a relational database, allowing researchers to query participant demographics, test results, and visit dates efficiently.","","Datastore","DB",""
-"Class","license","DATAHUB:0002075","","","","","","","","",""
-"Class","study quality","DATAHUB:0002090","","","","","","","","",""
+"Class","license","","","","","","","","Software License","",""
+"Class","study quality","DATAHUB:0002090","","","Study quality is a quality that inheres in a study and reflects its methodological soundness, including aspects such as design integrity, data validity, and risk of bias.","","","","","",""
+"Class","study focus","DATAHUB:0002093","","study quality","A study focus is an information content entity that represents the central area of investigation, such as a disease, condition, population, or intervention of interest in a study.","","","","","",""
