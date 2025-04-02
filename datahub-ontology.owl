@@ -727,7 +727,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <!-- http://w3id.org/radx/DATAHUB_0002005 -->
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002005">
-        <rdfs:label>RADx awardee</rdfs:label>
+        <rdfs:label>radx awardee</rdfs:label>
         <skos:altLabel>funding recipient</skos:altLabel>
         <skos:altLabel>grantee</skos:altLabel>
         <skos:definition>A RADx awardee is an organization or entity that has received funding under the RADx Program to conduct research and provide study data.</skos:definition>
@@ -921,7 +921,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:label>era commons account</rdfs:label>
         <skos:altLabel>NIH login</skos:altLabel>
         <skos:altLabel>researcher account</skos:altLabel>
-        <skos:definition>An account system used for accessing NIH services, including the RADx Data Hub. Required for requesting access to sensitive data files and registering studies.</skos:definition>
+        <skos:definition>An eRA Commons account is a user account in the eRA commons system, which  is a user credential system that provides authenticated access to NIH electronic services, distinguishing itself by being required for submitting grant-related information, requesting access to sensitive biomedical data such as in the RADx Data Hub, and registering research studies.</skos:definition>
     </Class>
     
 
