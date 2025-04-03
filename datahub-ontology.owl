@@ -722,6 +722,9 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0001025">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000101"/>
         <rdfs:label>variable metadata</rdfs:label>
+        <skos:altLabel>Column metadata</skos:altLabel>
+        <skos:altLabel>Field level metadata</skos:altLabel>
+        <skos:altLabel>Variable descriptor</skos:altLabel>
     </Class>
     
 
@@ -1160,6 +1163,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <skos:altLabel>RADx Core Data Element</skos:altLabel>
         <skos:altLabel>Required Common Data Element</skos:altLabel>
         <skos:altLabel>Standardized Data Element</skos:altLabel>
+        <skos:altLabel>Tier 1 Common Data Element</skos:altLabel>
         <skos:definition>A Tier 1 CDE (Common Data Element) is a RADx Common Data Element that must be collected and submitted by all RADx studies to ensure cross-study harmonization, interoperability, and comparability within the RADx Data Hub. Tier 1 CDEs capture essential information that is universally relevant across all studies in the program, including core demographic variables, study design elements, and high-priority clinical or diagnostic data. The use of Tier 1 CDEs supports data integration, secondary analysis, and adherence to FAIR (Findable, Accessible, Interoperable, Reusable) data principles.</skos:definition>
     </Class>
     
@@ -1170,6 +1174,10 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002061">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002064"/>
         <rdfs:label>tier 1 variable</rdfs:label>
+        <skos:altLabel>Core variable</skos:altLabel>
+        <skos:altLabel>RADx core variable</skos:altLabel>
+        <skos:altLabel>Tier 1 Variable</skos:altLabel>
+        <skos:definition>A tier 1 variable is a variable that is defined by the RADx global code book data dictionary.  Tier 1 variables have identifiers that start with `nih_`.  Tier 1 variables are intended to be common to all RADx studies that involved human subjects across all RADx programs.</skos:definition>
     </Class>
     
 
@@ -1179,6 +1187,9 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002062">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002064"/>
         <rdfs:label>tier 2 variable</rdfs:label>
+        <skos:altLabel>DCC specific variable</skos:altLabel>
+        <skos:altLabel>Tier 2 Variable</skos:altLabel>
+        <skos:definition>A tier 2 variable is a non-tier 1 variable that is defined by a RADx DCC data dictionary.  Tier 2 variables are intended to be common to a subset of studies within a DCC.  Thus, RADx-rad has it&apos;s own set of tier 2 variables, as do the other DCCs.</skos:definition>
     </Class>
     
 
@@ -1188,6 +1199,9 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002063">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002064"/>
         <rdfs:label>tier 3 variable</rdfs:label>
+        <skos:altLabel>Study specific variable</skos:altLabel>
+        <skos:altLabel>Tier 3 Variable</skos:altLabel>
+        <skos:definition>A tier 3 variable is a variable that is not a tier 1 or a tier 2 variable.  Tier 3 variables are usually specific to individual studies.</skos:definition>
     </Class>
     
 
@@ -1196,6 +1210,8 @@ These principles ensure that data is well-structured, machine-readable, and reus
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002064">
         <rdfs:label>variable</rdfs:label>
+        <skos:altLabel>Factor</skos:altLabel>
+        <skos:altLabel>Field</skos:altLabel>
         <skos:definition>A variable is a measurable characteristic, attribute, or quantity that can take on different values or states. Variables are the fundamental units of data that researchers measure, observe, or manipulate in order to study a phenomenon or answer research questions. Each variable is described by a corresponding data element, which defines the variable’s name, meaning, data type, permissible values, and units, providing essential context for interpreting the variable across datasets and studies.</skos:definition>
     </Class>
     
