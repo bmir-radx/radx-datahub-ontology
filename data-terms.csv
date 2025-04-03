@@ -2,7 +2,7 @@
 "TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=|","A skos:altLabel SPLIT=|",""
 "Class","data","DATAHUB:0000100","Data","","Data refers to raw facts, values, or information that can be collected, stored, processed, and analyzed. It can be structured (organized in a fixed format) or unstructured (freeform and not organized into predefined models). Data becomes useful information when it is processed and interpreted.","","","","","",""
 "Class","metadata","DATAHUB:0000101","","data","Metadata is data that describe data","","","","","",""
-"Class","FAIR data","DATAHUB:0000102","","data","FAIR data is data that follows the FAIR principles, which stand for:
+"Class","FAIR data","DATAHUB:0000102","","findable data, accessible data, interoperable data, reusable data","FAIR data is data that follows the FAIR principles, which stand for:
 
 - Findable
 - Accessible

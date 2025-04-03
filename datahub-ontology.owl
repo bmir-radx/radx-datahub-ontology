@@ -343,7 +343,10 @@
     <!-- http://w3id.org/radx/DATAHUB_0000102 -->
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0000102">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000103"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000104"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000106"/>
         <rdfs:label>FAIR data</rdfs:label>
         <skos:definition>FAIR data is data that follows the FAIR principles, which stand for:
 
