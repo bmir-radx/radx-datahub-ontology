@@ -961,18 +961,6 @@ These principles ensure that data is well-structured, machine-readable, and reus
     
 
 
-    <!-- http://w3id.org/radx/DATAHUB_0002034 -->
-
-    <Class rdf:about="http://w3id.org/radx/DATAHUB_0002034">
-        <rdfs:label>health insurance portability and accountability act (hipaa)</rdfs:label>
-        <skos:altLabel>HIPAA</skos:altLabel>
-        <skos:altLabel>Health Insurance Portability and Acountability Act</skos:altLabel>
-        <skos:altLabel>health data regulation</skos:altLabel>
-        <skos:definition>A U.S. law regulating the privacy and security of individually identifiable health information. It governs how this information can be used, shared, and maintained by covered entities.</skos:definition>
-    </Class>
-    
-
-
     <!-- http://w3id.org/radx/DATAHUB_0002035 -->
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002035">
@@ -1105,7 +1093,8 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <!-- http://w3id.org/radx/DATAHUB_0002053 -->
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002053">
-        <rdfs:label>structured description</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002090"/>
+        <rdfs:label>structured study description</rdfs:label>
         <skos:definition>Detailed and standardized information about a data file’s attributes, typically included in metadata files.</skos:definition>
     </Class>
     
@@ -1533,6 +1522,16 @@ data annotation center</skos:altLabel>
         <skos:altLabel>genotype-phenotype database
 NCBI archive</skos:altLabel>
         <skos:definition>The database of Genotype and Phenotype (dbGaP) developed by the National Center for Biotechnology Information (NCBI) to archive and distribute the results of studies involving high-density genotyping. RADx Data Hub uses dbGaP to manage study-level access to data files.</skos:definition>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/radx/DATAHUB_0002034 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002034">
+        <rdfs:label>health insurance portability and accountability act (hipaa)</rdfs:label>
+        <skos:altLabel>HIPAA|health data regulation</skos:altLabel>
+        <skos:definition>A U.S. law regulating the privacy and security of individually identifiable health information. It governs how this information can be used, shared, and maintained by covered entities.</skos:definition>
     </NamedIndividual>
     
 
