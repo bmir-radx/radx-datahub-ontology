@@ -121,6 +121,7 @@
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:label>csv file</rdfs:label>
+        <skos:altLabel>Comma Separated Values File</skos:altLabel>
         <skos:definition>A CSV file is a plain text file that stores tabular data, where each line represents a single record and fields (columns) within the record are separated by commas. CSV files are commonly used for data exchange between software applications because they are simple, lightweight, and widely supported across many systems, including spreadsheets, databases, and data analysis tools.</skos:definition>
     </Class>
     
