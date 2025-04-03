@@ -1437,8 +1437,7 @@ The actual sample size may vary from this estimate depending on recruitment outc
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0001002">
         <rdf:type rdf:resource="http://w3id.org/radx/DATAHUB_0001001"/>
         <rdfs:label>radx radical (radx-rad)</rdfs:label>
-        <skos:altLabel>RADx-rad
-non-traditional diagnostics</skos:altLabel>
+        <skos:altLabel>RADx-rad</skos:altLabel>
         <skos:definition>A RADx effort focusing on innovative, non-traditional COVID-19 testing approaches, including rapid detection devices and home-based testing technologies. RADx-rad seeks to address gaps in usability, accessibility, and accuracy.</skos:definition>
     </NamedIndividual>
     
@@ -1461,8 +1460,7 @@ rapid diagnostics</skos:altLabel>
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0001004">
         <rdf:type rdf:resource="http://w3id.org/radx/DATAHUB_0001001"/>
         <rdfs:label>radx underserved populations (radx-up)</rdfs:label>
-        <skos:altLabel>RADx-UP
-underserved research</skos:altLabel>
+        <skos:altLabel>RADx-UP</skos:altLabel>
         <skos:definition>An initiative aimed at reducing health disparities in COVID-19 morbidity and mortality among underserved and vulnerable populations disproportionately affected by the pandemic. The goal is to understand and address the factors driving these disparities.</skos:definition>
     </NamedIndividual>
     
@@ -1472,8 +1470,8 @@ underserved research</skos:altLabel>
 
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002002">
         <rdfs:label>RADx</rdfs:label>
-        <skos:altLabel>Rapid Acceleration of Diagnostics
-RADx Program</skos:altLabel>
+        <skos:altLabel>RADx Program</skos:altLabel>
+        <skos:altLabel>Rapid Acceleration of Diagnostics</skos:altLabel>
         <skos:definition>RADx stands for Rapid Acceleration of Diagnostics. It’s a program launched by the National Institutes of Health (NIH) in 2020, as part of the U.S. response to the COVID-19 pandemic. The goal of RADx was to accelerate the development, commercialization, and deployment of innovative diagnostic technologies—especially for COVID-19 testing.</skos:definition>
     </NamedIndividual>
     
@@ -1484,8 +1482,7 @@ RADx Program</skos:altLabel>
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002007">
         <rdf:type rdf:resource="http://w3id.org/radx/DATAHUB_0002006"/>
         <rdfs:label>bioportal ontology repository</rdfs:label>
-        <skos:altLabel>ontology repository
-bioportal</skos:altLabel>
+        <skos:altLabel>bioportal</skos:altLabel>
         <skos:definition>BioPortal is an ontology repository developed and maintained by the National Center for Biomedical Ontology (NCBO). It provides a web-based platform for accessing, sharing, visualizing, and analyzing biomedical ontologies.</skos:definition>
     </NamedIndividual>
     
@@ -1496,8 +1493,8 @@ bioportal</skos:altLabel>
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002008">
         <schema:example>Booz Allen Hamilton developed and maintains the RADx Data Hub, supporting data submission, curation, and access processes for all participating RADx studies.</schema:example>
         <rdfs:label>Booz Allen Hamilton</rdfs:label>
-        <skos:altLabel>Booz Allen
-Booz partner</skos:altLabel>
+        <skos:altLabel>BAH</skos:altLabel>
+        <skos:altLabel>Booz Allen</skos:altLabel>
         <skos:definition>Booz Allen Hamilton is a management consulting and technology consulting firm, with a strong focus on serving the U.S. government, particularly in areas like defense, intelligence, and civil agencies. Founded in 1914, Booz Allen is known for providing strategy, analytics, digital solutions, engineering, and cybersecurity services to clients in both the public and private sectors.</skos:definition>
     </NamedIndividual>
     
@@ -1507,8 +1504,7 @@ Booz partner</skos:altLabel>
 
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002009">
         <rdfs:label>center for expanded data annotation and retrieval</rdfs:label>
-        <skos:altLabel>CEDAR
-data annotation center</skos:altLabel>
+        <skos:altLabel>CEDAR</skos:altLabel>
         <skos:definition>A web-based computational metadata management platform focused on helping users create high-quality biomedical metadata through templates that facilitate development, evaluation, use, and refinement of experiment-based biomedical metadata.</skos:definition>
     </NamedIndividual>
     
@@ -1519,8 +1515,8 @@ data annotation center</skos:altLabel>
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002026">
         <rdf:type rdf:resource="http://w3id.org/radx/DATAHUB_0002073"/>
         <rdfs:label>dbGaP</rdfs:label>
-        <skos:altLabel>genotype-phenotype database
-NCBI archive</skos:altLabel>
+        <skos:altLabel>NCBI archive</skos:altLabel>
+        <skos:altLabel>genotype-phenotype database</skos:altLabel>
         <skos:definition>The database of Genotype and Phenotype (dbGaP) developed by the National Center for Biotechnology Information (NCBI) to archive and distribute the results of studies involving high-density genotyping. RADx Data Hub uses dbGaP to manage study-level access to data files.</skos:definition>
     </NamedIndividual>
     
@@ -1530,7 +1526,8 @@ NCBI archive</skos:altLabel>
 
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002034">
         <rdfs:label>health insurance portability and accountability act (hipaa)</rdfs:label>
-        <skos:altLabel>HIPAA|health data regulation</skos:altLabel>
+        <skos:altLabel>HIPAA</skos:altLabel>
+        <skos:altLabel>health data regulation</skos:altLabel>
         <skos:definition>A U.S. law regulating the privacy and security of individually identifiable health information. It governs how this information can be used, shared, and maintained by covered entities.</skos:definition>
     </NamedIndividual>
     
@@ -1541,8 +1538,8 @@ NCBI archive</skos:altLabel>
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002045">
         <rdf:type rdf:resource="http://w3id.org/radx/DATAHUB_0002020"/>
         <rdfs:label>radx data hub</rdfs:label>
-        <skos:altLabel>RADx repository
-RADx storage</skos:altLabel>
+        <skos:altLabel>RADx repository</skos:altLabel>
+        <skos:altLabel>RADx storage</skos:altLabel>
         <skos:definition>The RADx Data Hub is a centralized research data repository for managing, organizing, and storing data collected from COVID-19 testing studies funded by the RADx Program. It provides a file-based structure for easy data access and interoperability.</skos:definition>
     </NamedIndividual>
     
@@ -1552,8 +1549,7 @@ RADx storage</skos:altLabel>
 
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002047">
         <rdfs:label>radx digital health technologies (radx dht)</rdfs:label>
-        <skos:altLabel>RADx-DHT
-digital health tools</skos:altLabel>
+        <skos:altLabel>RADx DHT</skos:altLabel>
         <skos:definition>An initiative to develop digital health solutions, such as smartphone apps, wearable devices, and software, to support contact tracing, verified COVID-19 test results, and monitoring health statuses of infected or potentially infected individuals.</skos:definition>
     </NamedIndividual>
     
@@ -1581,8 +1577,7 @@ digital health tools</skos:altLabel>
 
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002050">
         <rdfs:label>Renaissance Computing Institute</rdfs:label>
-        <skos:altLabel>RENCI
-program management partner</skos:altLabel>
+        <skos:altLabel>RENCI</skos:altLabel>
         <skos:definition>A partner in the RADx Data Hub responsible for cross-disciplinary program management, including technical development, researcher engagement, and training.</skos:definition>
     </NamedIndividual>
     
@@ -1592,8 +1587,7 @@ program management partner</skos:altLabel>
 
     <NamedIndividual rdf:about="http://w3id.org/radx/DATAHUB_0002052">
         <rdfs:label>Stanford University</rdfs:label>
-        <skos:altLabel>Stanford
-Stanford partner</skos:altLabel>
+        <skos:altLabel>Stanford</skos:altLabel>
     </NamedIndividual>
     
 
