@@ -1,5 +1,5 @@
 "Entity type","Term","Column 12","Print name","Parents","Definition","Expanded definition","Example usage","See also","Synonyms","Acronym","Notes"
-"TYPE","LABEL","ID","","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=|","A skos:altLabel SPLIT=|",""
+"TYPE","LABEL","ID","A skos:altLabel SPLIT=|","SC % SPLIT=,","A skos:definition","","A schema:example","","A skos:altLabel SPLIT=|","A skos:altLabel SPLIT=|",""
 "Class","data element","DATAHUB:0001020","Data Element (DE)","variable metadata","A data element is a single defined unit of data that captures a specific attribute, property, or observation within a dataset or database. Each data element is described by a set of attributes, including its name, definition, permissible values, data type, and units, if applicable. Data elements serve as the building blocks of structured data and provide semantic meaning and context to the variables stored within a dataset, ensuring consistent interpretation, analysis, and reuse.","","","","Data Field|Data Variable Definition|Variable Definition|Metadata Entry for a Variable","DE","part of: Data Dictionary
 described by: Metadata Record
 used in: Data Collection, Data Submission

@@ -348,6 +348,7 @@
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000105"/>
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000106"/>
         <rdfs:label>FAIR data</rdfs:label>
+        <skos:altLabel>Findable, Accessible, Interoperable, Reusable Data</skos:altLabel>
         <skos:definition>FAIR data is data that follows the FAIR principles, which stand for:
 
 - Findable
@@ -651,6 +652,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0001025"/>
         <rdfs:label>data element</rdfs:label>
         <skos:altLabel>DE</skos:altLabel>
+        <skos:altLabel>Data Element (DE)</skos:altLabel>
         <skos:altLabel>Data Field</skos:altLabel>
         <skos:altLabel>Data Variable Definition</skos:altLabel>
         <skos:altLabel>Metadata Entry for a Variable</skos:altLabel>
@@ -666,6 +668,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0001020"/>
         <rdfs:label>common data element</rdfs:label>
         <skos:altLabel>CDE</skos:altLabel>
+        <skos:altLabel>Common Data Element (CDE)</skos:altLabel>
         <skos:altLabel>Defined Data Element</skos:altLabel>
         <skos:altLabel>Shared Data Element</skos:altLabel>
         <skos:altLabel>Standardized Data Element</skos:altLabel>
@@ -680,6 +683,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0001021"/>
         <rdfs:label>defined data element</rdfs:label>
         <skos:altLabel>DDE</skos:altLabel>
+        <skos:altLabel>Defined Data Element (DDE)</skos:altLabel>
         <skos:altLabel>RADx-UP Common Data Element</skos:altLabel>
         <skos:definition>A defined data element (DDE) is a common data element that is defined by the RADx-UP program data coordication center.</skos:definition>
     </Class>
@@ -692,6 +696,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0001021"/>
         <rdfs:label>RADx common data element</rdfs:label>
         <skos:altLabel>RADx CDE</skos:altLabel>
+        <skos:altLabel>RADx Common Data Element (CDE)</skos:altLabel>
         <skos:altLabel>RADx Core Data Element</skos:altLabel>
         <skos:altLabel>RADx Standard Data Element</skos:altLabel>
         <skos:definition>A RADx Common Data Element (CDE) is a common data element that is specifically defined and required by the RADx program to ensure consistent collection, representation, and reporting of essential study data across all RADx-funded projects, enabling data harmonization, cross-study comparability, and integration within the RADx Data Hub.</skos:definition>
@@ -705,6 +710,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0000101"/>
         <rdfs:label>data dictionary</rdfs:label>
         <skos:altLabel>Code Book</skos:altLabel>
+        <skos:altLabel>Data Dictionary</skos:altLabel>
         <skos:altLabel>Data Element Dictionary</skos:altLabel>
         <skos:definition>A data dictionary is a form of Metadata that is a structured reference resource that defines and describes the individual data elements within a dataset, database, or data system. It provides standardized metadata about each data element, including its name, definition, data type, allowed values, format, and relationships to other data elements, to ensure consistent understanding, documentation, and use of the data across systems, teams, and stakeholders.</skos:definition>
     </Class>
@@ -732,6 +738,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002005">
         <rdfs:label>radx awardee</rdfs:label>
+        <skos:altLabel>RADx Awardee</skos:altLabel>
         <skos:altLabel>funding recipient</skos:altLabel>
         <skos:altLabel>grantee</skos:altLabel>
         <skos:definition>A RADx awardee is an organization or entity that has received funding under the RADx Program to conduct research and provide study data.</skos:definition>
@@ -744,6 +751,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002006">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002001"/>
         <rdfs:label>ontology repository</rdfs:label>
+        <skos:altLabel>Ontology Repository</skos:altLabel>
     </Class>
     
 
@@ -753,6 +761,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002010">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002014"/>
         <rdfs:label>co-investigator</rdfs:label>
+        <skos:altLabel>Co-Investigator</skos:altLabel>
         <skos:definition>A Co-Investigator is a key member of a research team who plays a significant role in the design, execution, and/or management of a project, but is not the primary lead. The Principal Investigator (PI) is the person officially in charge of the project, while Co-Investigators work alongside the PI, contributing their expertise and helping ensure the project’s success.</skos:definition>
     </Class>
     
@@ -829,6 +838,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:label>data principal investigator</rdfs:label>
         <skos:altLabel>Data Custodian</skos:altLabel>
         <skos:altLabel>Data PI</skos:altLabel>
+        <skos:altLabel>Data Principal Investigator</skos:altLabel>
         <skos:altLabel>Lead Data Submitter</skos:altLabel>
         <skos:definition>A Data Principal Investigator (Data PI) is a designated individual who holds primary responsibility for the management, quality assurance, and compliance of a specific dataset produced or submitted in the context of a research project or data-sharing initiative. The Data PI ensures that the data is accurate, complete, well-documented, and adheres to all applicable standards, regulations, and policies governing data collection, curation, and sharing. The Data PI also serves as the primary point of contact for questions related to the dataset’s content, provenance, and interpretation.</skos:definition>
     </Class>
@@ -842,6 +852,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:label>data repository</rdfs:label>
         <skos:altLabel>Data Archive</skos:altLabel>
         <skos:altLabel>Data Registry</skos:altLabel>
+        <skos:altLabel>Data Repository</skos:altLabel>
         <skos:altLabel>Data Repository System</skos:altLabel>
         <skos:altLabel>Data Sharing Platform</skos:altLabel>
         <skos:definition>A data repository is a repository that is specifically designed to store, organize, preserve, and manage access to digital data and its associated metadata.</skos:definition>
@@ -854,6 +865,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002020">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002019"/>
         <rdfs:label>research data repository</rdfs:label>
+        <skos:altLabel>Research Data Repository</skos:altLabel>
         <skos:definition>A research data repository is a data repository that contains research data that is the product of a research study.</skos:definition>
     </Class>
     
@@ -925,6 +937,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002100"/>
         <rdfs:label>era commons account</rdfs:label>
         <skos:altLabel>NIH login</skos:altLabel>
+        <skos:altLabel>eRA Commons Account</skos:altLabel>
         <skos:altLabel>electronic Research Administration account</skos:altLabel>
         <skos:altLabel>researcher account</skos:altLabel>
         <skos:definition>An eRA Commons account is a user account in the eRA commons system, which  is a user credential system that provides authenticated access to NIH electronic services, distinguishing itself by being required for submitting grant-related information, requesting access to sensitive biomedical data such as in the RADx Data Hub, and registering research studies.</skos:definition>
@@ -950,6 +963,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002034">
         <rdfs:label>health insurance portability and accountability act (hipaa)</rdfs:label>
         <skos:altLabel>HIPAA</skos:altLabel>
+        <skos:altLabel>Health Insurance Portability and Acountability Act</skos:altLabel>
         <skos:altLabel>health data regulation</skos:altLabel>
         <skos:definition>A U.S. law regulating the privacy and security of individually identifiable health information. It governs how this information can be used, shared, and maintained by covered entities.</skos:definition>
     </Class>
@@ -997,6 +1011,9 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002038">
         <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002014"/>
         <rdfs:label>principal investigator</rdfs:label>
+        <skos:altLabel>Chief Investigator</skos:altLabel>
+        <skos:altLabel>Lead Investigator</skos:altLabel>
+        <skos:altLabel>Principal Investigator</skos:altLabel>
         <skos:definition>A Principal Investigator (PI) is the lead researcher responsible for the preparation, conduct, and administration of a research grant, cooperative agreement, training or public service project, contract, or other sponsored project. </skos:definition>
     </Class>
     
@@ -1006,8 +1023,13 @@ These principles ensure that data is well-structured, machine-readable, and reus
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002039">
         <rdfs:label>published manuscript</rdfs:label>
-        <skos:altLabel>research article</skos:altLabel>
-        <skos:altLabel>study publication</skos:altLabel>
+        <skos:altLabel>Academic publication</skos:altLabel>
+        <skos:altLabel>Peer-reviewed paper</skos:altLabel>
+        <skos:altLabel>Published article</skos:altLabel>
+        <skos:altLabel>Research article</skos:altLabel>
+        <skos:altLabel>Research paper</skos:altLabel>
+        <skos:altLabel>Scholarly article</skos:altLabel>
+        <skos:altLabel>Study publication</skos:altLabel>
         <skos:definition>A Published Manuscript is a peer-reviewed, publicly accessible scientific document that presents the research findings, methods, results, and conclusions of a study. It is typically published in an academic journal, conference proceedings, or other recognized scholarly outlet and serves as an official record of the study’s contributions to the scientific community.</skos:definition>
     </Class>
     
@@ -1288,6 +1310,7 @@ The actual sample size may vary from this estimate depending on recruitment outc
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002073">
         <schema:example>The clinical trial data were stored in a relational database, allowing researchers to query participant demographics, test results, and visit dates efficiently.</schema:example>
         <rdfs:label>database</rdfs:label>
+        <skos:altLabel>Database</skos:altLabel>
         <skos:altLabel>Datastore</skos:altLabel>
         <skos:definition>A database is a structured collection of data that is organized, stored, and managed electronically, typically using a database management system (DBMS), to enable efficient querying, retrieval, updating, and analysis of the data.</skos:definition>
     </Class>

@@ -9,7 +9,7 @@
 - Interoperable
 - Reusable
 
-These principles ensure that data is well-structured, machine-readable, and reusable across different platforms, making it useful for research, industry, and long-term data management.","","","","","",""
+These principles ensure that data is well-structured, machine-readable, and reusable across different platforms, making it useful for research, industry, and long-term data management.","","","","Findable, Accessible, Interoperable, Reusable Data","",""
 "Class","findable data","DATAHUB:0000103","","data","Findable data is data that is adequately described by rich metadata, assigned a globally unique and persistent identifier, and registered or indexed in a searchable resource, enabling both humans and machines to locate and identify the data.","","The RADx study’s de-identified dataset was made findable by assigning a DOI, registering it in the RADx Data Hub catalog, and ensuring the metadata followed a standardized schema to support keyword and faceted search.","","Discoverable Data|Searchable Data","",""
 "Class","accessible data","DATAHUB:0000104","","data","Accessible data are data that can be retrieved using standardized communication protocols, and is made available under clear access conditions, ensuring that both humans and machines can obtain, use, or request the data, even if access is restricted or controlled.","Key aspects of accessible data are:
 
