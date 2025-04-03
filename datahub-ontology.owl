@@ -922,8 +922,10 @@ These principles ensure that data is well-structured, machine-readable, and reus
     <!-- http://w3id.org/radx/DATAHUB_0002029 -->
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002029">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/radx/DATAHUB_0002100"/>
         <rdfs:label>era commons account</rdfs:label>
         <skos:altLabel>NIH login</skos:altLabel>
+        <skos:altLabel>electronic Research Administration account</skos:altLabel>
         <skos:altLabel>researcher account</skos:altLabel>
         <skos:definition>An eRA Commons account is a user account in the eRA commons system, which  is a user credential system that provides authenticated access to NIH electronic services, distinguishing itself by being required for submitting grant-related information, requesting access to sensitive biomedical data such as in the RADx Data Hub, and registering research studies.</skos:definition>
     </Class>
@@ -1370,6 +1372,15 @@ The actual sample size may vary from this estimate depending on recruitment outc
 
     <Class rdf:about="http://w3id.org/radx/DATAHUB_0002099">
         <rdfs:label>specification document</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://w3id.org/radx/DATAHUB_0002100 -->
+
+    <Class rdf:about="http://w3id.org/radx/DATAHUB_0002100">
+        <rdfs:label>user account</rdfs:label>
+        <skos:definition>A user account is a digital artifact that enables an agent to access and interact with a system under an identifiable identity, characterized by a set of credentials, permissions, and associated data.</skos:definition>
     </Class>
     
 
