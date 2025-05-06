@@ -1178,7 +1178,7 @@ These principles ensure that data is well-structured, machine-readable, and reus
         <rdfs:label>tier 2 variable</rdfs:label>
         <skos:altLabel>DCC specific variable</skos:altLabel>
         <skos:altLabel>Tier 2 Variable</skos:altLabel>
-        <skos:definition>A tier 2 variable is a non-tier 1 variable that is defined by a RADx DCC data dictionary.  Tier 2 variables are intended to be common to a subset of studies within a DCC.  Thus, RADx-rad has it&apos;s own set of tier 2 variables, as do the other DCCs.</skos:definition>
+        <skos:definition>A tier 2 variable is a non-tier 1 variable that is defined by a RADx DCC data dictionary.  Tier 2 variables are intended to be common to a subset of studies within a DCC.  Thus, RADx-rad has its own set of tier 2 variables, as do the other DCCs.</skos:definition>
     </Class>
     
 
